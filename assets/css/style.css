@@ -97,12 +97,18 @@ nav {
     clear: both;
     overflow: auto;
     background-color: #666666;
-    width: 960px; 
+    text-align: center;
+    color: #ffffff;
+    font-size: 10px;
+    width: 100%; 
     margin: 0 auto;
     float: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 30px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin-top: 100px;
+    border-top: 10px solid #4aaaa5;
+    padding-left: 50%;
+    padding-top: 10px;
 }
 
 /* About me line inside container1 */
