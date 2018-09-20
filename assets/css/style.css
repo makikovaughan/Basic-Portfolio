@@ -15,6 +15,13 @@ body {
 
 a {
     color: #777777;
+    text-decoration: none;
+}
+
+/* Hover the text link*/
+a:hover {
+    background-color: #4aaaa5;
+    color: #cccccc;
 }
 
 /* Header Style Sheet */
@@ -60,10 +67,20 @@ nav {
     overflow: auto;
     background-color: #ffffff;
     margin: 0 auto;
-    width: 1000px; 
+    width: 960px; 
     height: 70px;
     position: relative;
     float: center;
+}
+
+/* main content */
+section {
+    clear: both;
+    overflow: auto;
+    width: 960px; 
+    float: center;
+    margin: 0 auto;
+    border-color: #dddddd;
 }
 
 /* About me, picture, and one paragraph are in this container */
@@ -71,7 +88,6 @@ nav {
     clear: both;
     overflow: auto;
     background-color: #ffffff;
-    width: 960px; 
     margin: 0 auto;
     margin-top: 30px;
     float: center;
@@ -103,13 +119,12 @@ nav {
     width: 100%; 
     margin: 0 auto;
     float: center;
-    /* padding-left: 20px;
-    padding-right: 20px; */
-    margin-top: 100px;
+    margin-top: 100px; 
     border-top: 10px solid #4aaaa5;
     padding-left: 50%;
     padding-top: 5%;
 }
+
 
 /* About me line inside container1 */
 #aboutme {
@@ -154,6 +169,12 @@ textarea {
     color: white;
 }
 
+/* Change the button color when the mouse was hovered over */
+.button:hover{
+   background-color: #cccccc;
+   color: #4aaaa5; 
+}
+
 /* Do not clean the float before my portfolio icon */
 .portfolio-container {
     float: left;
@@ -164,6 +185,11 @@ textarea {
     clear: both;
     overflow: auto;
     float: left;
+}
+
+img.portfolio {
+    height: 200px; 
+    width: 250px;
 }
 
 /* The first icon */
