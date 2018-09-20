@@ -13,6 +13,9 @@ body {
     border: #dddddd;
 }
 
+a {
+    color: #777777;
+}
 
 /* Header Style Sheet */
 header {
