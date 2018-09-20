@@ -142,23 +142,26 @@ textarea {
     color: white;
 }
 
-/* My picture inside container 1st row */
+/* Do not clean the float before my portfolio icon */
 .portfolio-container {
     float: left;
 }
 
-/* My picture inside container 2nd row */
+/* Clean the float before My Portfolio icon for the 2nd row */
 .portfolio-container-2 {
     clear: both;
     overflow: auto;
     float: left;
 }
+
+/* The first icon */
 .portfolio-container1 {
     position: relative;
     text-align: center;
     color: white;
 }
 
+/* The 2nd icon */
 .portfolio-container2 {
     position: relative;
     left: 20px;
@@ -166,6 +169,7 @@ textarea {
     color: white;
 }
 
+/* the portfolio icon text alignment */
 .centered {
     position: absolute;
     top: 70%;
