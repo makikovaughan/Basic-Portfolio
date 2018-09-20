@@ -13,7 +13,7 @@ body {
 
 
 /* Header Style Sheet */
-.container {
+header {
     margin: 0 auto;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #ffffff;
@@ -49,7 +49,7 @@ nav {
 
 
 /* container in the div */
-header {
+.container {
     clear: both;
     overflow: auto;
     background-color: #ffffff;
