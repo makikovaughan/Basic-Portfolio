@@ -5,7 +5,7 @@
 
 body {
     background-color: #ffffff;
-    background-image: url("gravel.png");
+    background-image: url("../images/gravel.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 32px;
     margin: 0 auto;
@@ -27,6 +27,7 @@ header {
 /* my name in the header */
 .headername {
     position: relative;
+    left: 0px;
     float: left;
     margin: 0 auto;
     top: 0px;
@@ -56,7 +57,9 @@ nav {
     overflow: auto;
     background-color: #ffffff;
     margin: 0 auto;
-    width: 960px; 
+    width: 1000px; 
+    height: 70px;
+    position: relative;
     float: center;
 }
 
